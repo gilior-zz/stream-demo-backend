@@ -10,7 +10,7 @@ namespace WebApi.Template1.Controllers
     public class TestController : ApiController
     {
         [HttpGet]
-        public HttpResponseMessage Get()  
+        public HttpResponseMessage Get()    
         {
             //var file = System.Web.Hosting.HostingEnvironment.MapPath("~/a.mp4");
             //var arr = File.ReadAllBytes(file);
